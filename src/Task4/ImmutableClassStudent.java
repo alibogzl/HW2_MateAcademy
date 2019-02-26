@@ -1,4 +1,4 @@
-package Task4;
+package com.company.Task4;
 
 import java.util.Date;
 
@@ -7,8 +7,7 @@ public final class ImmutableClassStudent {
     private String workName;
     private int id;
     private Date date;
-
-
+    
     public ImmutableClassStudent(String name, String workName, int id, Date date) {
         this.name = name;
         this.workName = workName;

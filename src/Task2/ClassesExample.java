@@ -1,4 +1,4 @@
-package Task2;
+package com.company.Task2;
 
 public class ClassesExample {
 
@@ -31,7 +31,7 @@ public class ClassesExample {
     }
 
 
-    static Res h = new Res() {
+    static InterfaceAnonymousClass IntrAnonymClass = new InterfaceAnonymousClass() {
         public void show() {
             System.out.println("This is result of Anonymous Inner Class");
         }
@@ -46,14 +46,14 @@ public class ClassesExample {
         ClassesExample.NestedClass nestedObject = new ClassesExample.NestedClass();
         nestedObject.showNested();
         //test for anonymous class
-        h.show();
+        IntrAnonymClass.show();
         //test for local class
         ClassesExample.printVars();
 
     }
 }
 
-interface Res {
+interface InterfaceAnonymousClass {
     void show();
 }
 

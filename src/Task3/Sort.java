@@ -1,4 +1,4 @@
-package Task3;
+package com.company.Task3;
 
 public class Sort {
 
@@ -11,12 +11,9 @@ public class Sort {
                     array[j - 1] = array[j];
                     array[j] = t;
                 }
-
             }
-
         }
         return array;
-
     }
 
     //SHELL SORT
@@ -55,9 +52,7 @@ public class Sort {
             }
         }
         return array;
-
     }
-
 
     //INSERTION SORT
     public static int[] insertSort(int array[]) {
@@ -71,7 +66,5 @@ public class Sort {
             array[j + 1] = k;
         }
         return array;
-
     }
-
 }
